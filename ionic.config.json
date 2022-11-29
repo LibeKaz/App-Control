@@ -1,5 +1,7 @@
 {
   "name": "e2e-example-tabs",
-  "integrations": {},
+  "integrations": {
+    "capacitor": {}
+  },
   "type": "angular"
 }
