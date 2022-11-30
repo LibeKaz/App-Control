@@ -1,7 +1,7 @@
 {
-  "name": "e2e-example-tabs",
-  "version": "0.0.1",
-  "author": "Ionic Framework",
+  "name": "App Control",
+  "version": "0.0.2",
+  "author": "Libe and Paolo",
   "homepage": "https://ionicframework.com/",
   "scripts": {
     "ng": "ng",
