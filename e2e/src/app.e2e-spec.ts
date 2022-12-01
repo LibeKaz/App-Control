@@ -7,7 +7,7 @@ describe('new App', () => {
     page = new AppPage();
   });
 
-  it('should display welcome message', () => {
+  it('Pagina principal mostrada "Perfil" ', () => {
     page.navigateTo();
     expect(page.getPageTitle()).toContain('Perfil');
   });
