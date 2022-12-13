@@ -9,6 +9,7 @@ import { StatusBar } from '@ionic-native/status-bar/ngx';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 
+import { Geolocation } from '@awesome-cordova-plugins/geolocation/ngx';
 import { NativeGeocoder, NativeGeocoderResult, NativeGeocoderOptions } from '@awesome-cordova-plugins/native-geocoder/ngx';
 
 @NgModule({
@@ -17,6 +18,7 @@ import { NativeGeocoder, NativeGeocoderResult, NativeGeocoderOptions } from '@aw
   imports: [BrowserModule, IonicModule.forRoot(), AppRoutingModule],
   providers: [
     StatusBar,
+    Geolocation,
     NativeGeocoder,
     SplashScreen,
     { provide: RouteReuseStrategy, useClass: IonicRouteStrategy }
