@@ -7,13 +7,13 @@
 <ion-content>
   <ion-card>
     <ion-card-header>
-      <ion-card-title>Iniciar Sesión</ion-card-title>
+      <ion-card-title>Login</ion-card-title>
     </ion-card-header>
     <ion-card-content>
       <form [formGroup]="formularioLogin">
         <ion-item>
-          <ion-label position="floating">Usuario</ion-label>
-          <ion-input formControlName="usuario"></ion-input>
+          <ion-label position="floating">Nombre</ion-label>
+          <ion-input formControlName="nombre"></ion-input>
         </ion-item>
         <ion-item>
           <ion-label position="floating">Contraseña</ion-label>
@@ -29,7 +29,7 @@
 </ion-content>
 
 <ion-footer>
-  <ion-toolbar>
+  <ion-toolbar >
     <ion-buttons slot="end">
       <ion-button [routerLink]="['/registro']">Registrarse</ion-button>
     </ion-buttons>
