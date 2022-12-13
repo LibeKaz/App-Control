@@ -1,6 +1,6 @@
 {
   "name": "App-Control",
-  "version": "0.0.2",
+  "version": "0.0.8",
   "author": "Libe and Paolo",
   "homepage": "https://ionicframework.com/",
   "scripts": {
@@ -58,5 +58,5 @@
     "tslint": "~6.1.0",
     "typescript": "~3.8.3"
   },
-  "description": "An Ionic project"
+  "description": "App Completa Control Asistencia"
 }
